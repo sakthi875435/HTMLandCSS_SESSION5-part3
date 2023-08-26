@@ -1,0 +1,289 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 1350px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Header section */
+
+header {
+    padding: 10px 0px ;
+/* You will give 4 values X-axis Y-axis , Spreed, color */
+    box-shadow:0px 15px 10px #e4e3e3 ;
+}
+
+.header_logo {
+    width: 100px;
+    height: auto;
+}
+
+.logo_support {
+    margin-left: 5px;
+    font-size: 22px;
+    color: #767676;
+}
+
+.header_nav {
+    width: 250px;
+    margin-left: 50px;
+
+}
+
+.header_nav a {
+    text-decoration: none;
+    color: rgb(79, 79, 79);
+    margin: 0px 15px;
+}
+
+.header_nav a:hover {
+    color: black;
+}
+
+.header_btn {
+    margin-left:400px ;
+    width: 450px;
+}
+
+.header_btn a {
+    margin: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.header_btn_one {
+    color: dodgerblue;
+}
+
+.header_btn_one:hover {
+    color: rgb(21, 94, 166);
+    background-color: rgb(194, 192, 192);
+}
+
+.header_btn_two {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header_btn_two:hover {
+    background-color: rgb(15, 94, 173);
+}
+
+/* Start of Title */
+
+.title {
+    margin-top: 50px;
+}
+
+.title_one {
+    width: 40%;
+    padding: 25%;
+}
+
+.title_one h1 {
+    font-size: 75px;
+}
+
+.title_two {
+    width: 50%;
+    margin: auto;
+}
+
+.title_two video {
+    width: 80%;
+    margin: 10%;
+}
+
+/* Support section  */  
+
+.support {
+    background-color: rgb(237, 237, 237);
+    margin-top: 75px;
+    border-top: 1px solid rgb(206, 205, 205);
+    border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.support_box {
+    width: 28%;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+.support_box h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.support_box p {
+    font-weight: 200;
+}
+
+.underline {
+    width: 30px;
+    height: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+.support_box border {
+    border-left: 1px solid rgb(206, 205, 205);
+    border-right: 1px solid rgb(206, 205, 205);
+}
+
+/*Features Section / all the features */
+
+.features {
+    margin-top: 50px;
+}
+
+.features_img {
+    width: 20%;
+    margin: 0px auto;
+}
+
+.features_img img{
+    width: 100%;
+}
+
+.features_content {
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.features_content h2 {
+    font-size: 50px;
+}
+
+.features_content p {
+    color: rgb(103, 103, 103);
+    font-size: 18px;
+}
+
+.features_buttons {
+    margin-top: 100px;
+}
+
+.features_button {
+    width: 33.33%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid rgb(215, 215, 215);
+}
+
+.features_button a {
+    text-decoration: none;
+    color: black;
+}
+
+.features_button:hover {
+    border-bottom:  3px solid dodgerblue;
+}
+
+.features_text {
+    margin-top: 100px;
+    width: 30%;
+    padding: 50px;
+    color: rgb(168, 169, 171);
+}
+
+.features_video {
+    margin-top: 100px;
+    width: 60%;
+}
+
+.features_video video{
+    width: 80%;
+    margin: 0px 10%;
+}
+
+/* Acount section */
+
+.account {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.account_content {
+    width: 35%;
+    margin: auto;
+}
+
+.account_content h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.account_content a {
+    display: block;
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.account_content .login {
+    background-color: dodgerblue;
+    color: white;
+    width: 15%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.login:hover {
+    background-color: rgb(19, 104, 189);
+}
+
+/* Footer */
+
+.footer {
+    padding: 30px 0px;
+    background-color: aliceblue;
+}
+
+.footer h3 {
+    font-size: 28px;
+    color: rgb(116, 116, 116);
+}
+
+.footer_nav {
+    padding: 33px 10px;
+    margin-left: 30px;
+}
+
+.footer_nav a {
+    text-decoration:none ;
+    color: rgb(173, 169, 169);
+    font-size: 18px;
+    margin: 5px 15p;
+}
+
+.footer_nav a:hover {
+    color: black;
+}
+
+.footer_help {
+    width: 25%;
+    padding: 33px 10px;
+    margin-left: 350px;
+    font-size: 18px;
+    color: rgb(199, 202, 204);
+}
+
+.footer_help small {
+    margin: 20px;
+}
